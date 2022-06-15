@@ -4,3 +4,5 @@
 
 #### 2. [SpiralForm](https://github.com/Chandu71202/DREAMTEAM/blob/main/SpiralForm.cpp0)
 #### 3. [PrimeNumber](https://github.com/Chandu71202/DREAMTEAM/blob/main/PrimeNumber.cpp)
+
+#### 3. [Segregation](https://github.com/Chandu71202/DREAMTEAM/blob/main/Segregation.cpp)
