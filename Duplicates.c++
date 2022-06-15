@@ -21,3 +21,10 @@ int main()
     }
     cout<<"Dupliacate number is: "<<t;
 }
+
+/* Input : 
+5
+1 4 5 3 3
+
+Output:
+3 */
