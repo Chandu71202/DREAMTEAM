@@ -1,3 +1,5 @@
+//Strictly only one duplicate element
+
 #include<iostream>
 using namespace std;
 
