@@ -1,6 +1,3 @@
-from doctest import OutputChecker
-
-
 def sortL(arr):
     length = len(arr)
     j = 0
