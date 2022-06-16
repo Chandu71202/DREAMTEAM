@@ -1,3 +1,4 @@
+### Note:  You are very much welcome to fork and contribute to this repository
 # DREAMTEAM
 
 #### 1. [Duplicates in an array](https://github.com/Chandu71202/DREAMTEAM/blob/main/Duplicates.cpp) 
