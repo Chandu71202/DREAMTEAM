@@ -8,3 +8,4 @@
 #### 4. [Segregation of array ](https://github.com/Chandu71202/DREAMTEAM/blob/main/Segregation.cpp)
 
 #### 5. [Leader Element in an array](https://github.com/Chandu71202/DREAMTEAM/blob/main/LeaderEle.cpp)
+#### 6. [Next Greatest number formed from the digits](https://github.com/Chandu71202/DREAMTEAM/blob/main/NextGreatestNumFormed)
