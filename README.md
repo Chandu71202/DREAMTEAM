@@ -10,3 +10,5 @@
 
 #### 5. [Leader Element in an array](https://github.com/Chandu71202/DREAMTEAM/blob/main/LeaderEle.cpp)
 #### 6. [Next Greatest number formed from the digits](https://github.com/Chandu71202/DREAMTEAM/blob/main/NextGreatestNumFormed.py)
+
+### Some of the examples taught in class have been updated [LEETCODE](https://github.com/Chandu71202/LEETCODE) repository in which you can solve with testcases too...
