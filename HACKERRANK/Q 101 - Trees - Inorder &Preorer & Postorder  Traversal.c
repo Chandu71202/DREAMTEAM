@@ -34,6 +34,26 @@ void inorder(struct TreeNode* root)
   } 
 }
 
+void preorder(struct TreeNode* root) 
+{ 
+    if (root != NULL) 
+    { 
+	printf("%d ", root->x);         
+        preorder(root->L); 
+        preorder(root->R);
+  } 
+}
+
+void postorder(struct TreeNode* root) 
+{ 
+    if (root != NULL) 
+    { 
+        postorder(root->L); 
+        postorder(root->R);
+        printf("%d ", root->x);         
+
+  } 
+}
 
 
 /*******************************************************/
@@ -45,5 +65,11 @@ int main() {
 		scan(val);
 		Root = insert(Root, val);
 	}
+	printf("Inorder Traversal");
 	inorder(Root);
+	printf("\nPreorder Traversal");
+	preorder(Root);
+	printf("\nPostorder Traversal");
+	postorder(Root);
+	
 }
