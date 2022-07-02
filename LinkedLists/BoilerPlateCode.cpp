@@ -40,4 +40,11 @@ int main()
 {
     struct Node* head=NULL;
     //head=insert_end(head,value);
+    int a,n;
+    cin>>a;
+    for(int i=0;i<a;i++)
+    {
+        cin>>n;
+        head=insert_end(head,n);
+    }
 }
