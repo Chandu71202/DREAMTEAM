@@ -39,5 +39,5 @@ void printLL(struct Node* n)
 int main()
 {
     struct Node* head=NULL;
-    //head=inser_end(head,value);
+    //head=insert_end(head,value);
 }
