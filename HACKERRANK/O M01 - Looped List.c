@@ -58,15 +58,29 @@ int find_loop(Node* head){
 	Your Code Here
 	It must return 1 if a loop exists and zero otherwise.
 	***/
-    Node* slow=head;
-    Node* fast=head;
-    do{
-        slow=slow->next;
-        fast=fast->next->next;
-        if(fast==NULL)
-            return 0;
-    }while(slow!=fast);
-    return 1;
+//     Node* slow=head;
+//     Node* fast=head;
+//     do{
+//         slow=slow->next;
+//         fast=fast->next->next;
+//         if(fast==NULL)
+//             return 0;
+//     }while(slow!=fast);
+//     return 1;
+//     up code works only for size of list greater than 3
+
+	
+    struct Node* p=head;
+    struct Node* q=head;
+
+    while(p&&q and q->next)
+    {
+        p=p->next;
+        q=q->next->next;
+        if(p==q)
+        return 1;
+        return 0;
+    }
     
 }
 //BODY ENDS HERE
