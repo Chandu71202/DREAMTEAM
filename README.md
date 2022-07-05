@@ -41,4 +41,9 @@
 
 #### 20. [DP - Converting a Sequence to Another](https://github.com/Chandu71202/DREAMTEAM/blob/main/HACKERRANK/Dynamic%20Programming/DP%20B2%20Converting%20a%20Sequence%20to%20Another%20-%202.cpp)
 
+### Linked Lists
+
+#### 1. [LLOperations All](https://github.com/Chandu71202/DREAMTEAM/blob/main/LinkedLists/LLoperations.cpp)
+
+#### 2. [Reverse a LinkedList](https://github.com/Chandu71202/DREAMTEAM/blob/main/LinkedLists/ReverseLL.cpp)
 ### Some of the examples taught in class have been updated [LEETCODE](https://github.com/Chandu71202/LEETCODE) repository in which you can solve with testcases too...
