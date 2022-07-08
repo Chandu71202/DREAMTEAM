@@ -46,5 +46,24 @@
 #### 1. [LLOperations All](https://github.com/Chandu71202/DREAMTEAM/blob/main/LinkedLists/LLoperations.cpp)
 
 #### 2. [Reverse a LinkedList](https://github.com/Chandu71202/DREAMTEAM/blob/main/LinkedLists/ReverseLL.cpp)
+
+#### 3. [MergePoint of 2 LL](https://github.com/Chandu71202/DREAMTEAM/blob/main/LinkedLists/MergePointOf2LL.cpp)
+
+#### 4. [Print LL in reverse order](https://github.com/Chandu71202/DREAMTEAM/blob/main/LinkedLists/Printing%20LL%20in%20reverse.cpp)
+
+#### 5. [Reverse a LL](https://github.com/Chandu71202/DREAMTEAM/blob/main/LinkedLists/ReverseLL.cpp)
+
+#### 6. [Merge 2 sorted LL](https://github.com/Chandu71202/DREAMTEAM/blob/main/LinkedLists/merge2sortedLL.cpp)
+
+#### 7. [Nth node from end](https://github.com/Chandu71202/DREAMTEAM/blob/main/LinkedLists/nthnodefromend.cpp)
+
+
+
+
+
+
+
+
+
 ### Some of the examples taught in class have been updated [LEETCODE](https://github.com/Chandu71202/LEETCODE) repository in which you can solve with testcases too...
 
