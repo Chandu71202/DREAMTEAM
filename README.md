@@ -57,8 +57,11 @@
 
 #### 7. [Nth node from end](https://github.com/Chandu71202/DREAMTEAM/blob/main/LinkedLists/nthnodefromend.cpp)
 
+### Trees
 
+#### 1. [Top View of a Binary Tree](https://github.com/Chandu71202/DREAMTEAM/blob/main/Tree/TopViewOfaBinaryTree.py)
 
+#### 2. [Height of a Binary Tree](https://github.com/Chandu71202/DREAMTEAM/blob/main/Tree/heightOfaBinaryTree.cpp)
 
 
 
