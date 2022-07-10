@@ -61,12 +61,21 @@
 
 #### 1. [Top View of a Binary Tree](https://github.com/Chandu71202/DREAMTEAM/blob/main/Tree/TopViewOfaBinaryTree.py)
 
-#### 2. [Height of a Binary Tree](https://github.com/Chandu71202/DREAMTEAM/blob/main/Tree/heightOfaBinaryTree.cpp)
+#### 2. [Bottom View of a Binary Tree](https://github.com/Chandu71202/DREAMTEAM/blob/main/Tree/BottomViewOfABinaryTree.py)
 
+#### 3. [Height of a Binary Tree](https://github.com/Chandu71202/DREAMTEAM/blob/main/Tree/heightOfaBinaryTree.cpp)
 
+#### 4. [Mirror of a Binary Tree](https://github.com/Chandu71202/LEETCODE/blob/main/Trees/226%20Invert%20Binary%20Tree.cpp)
 
+#### 5. [Maximum Sum Path of a Binary Tree](https://github.com/Chandu71202/LEETCODE/blob/main/Trees/124%20Binary%20Tree%20Maximum%20Path%20Sum.cpp)
 
+#### 6. [Zig Zag Traversal of a Binary Tree](https://github.com/Chandu71202/LEETCODE/blob/main/Trees/103%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.cpp)
 
+#### 7. [Level Order Traversal of a Binary Tree](https://github.com/Chandu71202/LEETCODE/blob/main/Trees/102%20Binary%20Tree%20Level%20Order%20Traversal.cpp)
+
+#### 8. [Lowest Common Ancestor of a Binary Tree](https://github.com/Chandu71202/LEETCODE/blob/main/Trees/236%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cpp)
+
+#### 9. [Diameter of a Binary Tree](https://github.com/Chandu71202/LEETCODE/blob/main/Trees/543%20Diameter%20of%20Binary%20Tree.cpp)
 
 ### Some of the examples taught in class have been updated [LEETCODE](https://github.com/Chandu71202/LEETCODE) repository in which you can solve with testcases too...
 
