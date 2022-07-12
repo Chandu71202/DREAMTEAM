@@ -61,15 +61,16 @@ struct Node* Merge2SortedLL(struct Node* head1,struct Node* head2)
             s=q;
             q=q->next;
         }
-        if(p==NULL)
-        {
-            s->next=q;
-        }
-        else
-        {
-            s->next=p;
-        }
     }
+    if(p==NULL)
+    {
+        s->next=q;
+    }
+    else
+    {
+        s->next=p;
+    }
+
     return newhead;
 }
 
