@@ -1,68 +1,95 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-
 struct BST
 {
     int data;
-    BST* left;
-    BST* right;
+    struct BST* left;
+    struct BST* right;
 };
 
-BST* NewNode(int data)
+struct BST* NewNode(int data)
 {
-    BST* newNode=(BST*)malloc(sizeof(BST));
+    struct BST* newNode=(struct BST*)malloc(sizeof(struct BST));
     newNode->data=data;
-    newNode->left=NULL;
     newNode->right=NULL;
+    newNode->left=NULL;
     return newNode;
 }
-BST* Insert(BST* root, int data)
+
+struct BST* Insert(struct BST* root, int data)
 {
-    
     if(root==NULL)
     {
         root=NewNode(data);
+        return root;
     }
-    else if(data<=root->data)
+    if(root->data<data)
     {
-        root->left=Insert(root->left,data);
+        root->right=Insert(root->right,data);
     }
     else
     {
-        root->right=Insert(root->right,data);
+        root->left=Insert(root->left,data);
     }
     return root;
 }
 
-void Inorder(BST* root)
+void Inorder(struct BST* root)
 {
-    if(root==NULL)
-    return;
-    Inorder(root->left);
-    cout<<root->data<<" ";
-    Inorder(root->right);
+    if(root!=NULL)
+    {
+        Inorder(root->left);
+        cout<<root->data<<" ";
+        Inorder(root->right);
+    }
 }
 
-void Search(BST* root,int data)
+struct BST* deleteNode(struct BST* root, int key)
 {
     if(root==NULL)
-    cout<<"Element Not Found";
-    if(root->data>data)
-    Search(root->left,data);
-    else if(root->data<data)
-    Search(root->right,data);
-    else if(root->data==data)
-    cout<<"Yes Element found";
+    return root;
+    if(key<root->data)
+    {
+        root->left=deleteNode(root->left,key);
+    }
+    else if(key>root->data)
+    {
+        root->right=deleteNode(root->right,key);
+    }
+    else
+    {
+        if(root->left==NULL and root->right==NULL)
+        return NULL;
+        else if(root->left==NULL)
+        {
+            return root->right;
+        }
+        else if(root->right==NULL)
+        {
+            return root->left;
+        }
+        struct BST* temp=root->right;
+        while(temp->left != NULL) temp = temp->left;
+        root->data=temp->data;
+        root->right=deleteNode(root->right,temp->data);
+        
+    }
+    return root;
 }
+
 int main()
 {
-    BST* root=NULL;
+    struct BST* root=NULL;
     root=Insert(root,10);
-    root=Insert(root,5);
+    root=Insert(root,20);
+    root=Insert(root,30);
+    root=Insert(root,40);    
     root=Insert(root,15);
     root=Insert(root,20);
-    root=Insert(root,1);
     Inorder(root);
-    Search(root,10);
-    return 0;
+    //10 15 20 20 30 40 
+    root=deleteNode(root,30);
+    cout<<endl;
+    Inorder(root);
+    //10 15 20 20 30 
 }
