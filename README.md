@@ -77,5 +77,21 @@
 
 #### 9. [Diameter of a Binary Tree](https://github.com/Chandu71202/LEETCODE/blob/main/Trees/543%20Diameter%20of%20Binary%20Tree.cpp)
 
+
+### Binary Search Tree
+### 1. [Insert,Delete Operations](https://github.com/Chandu71202/DREAMTEAM/blob/main/BinarySearchTree/BiolerPlateCode.cpp)
+
+### Searching
+#### 1. [Binary Search](https://github.com/Chandu71202/DREAMTEAM/blob/main/Searching/BinarySearch.py)
+#### 2. [Linear Search](https://github.com/Chandu71202/DREAMTEAM/blob/main/Searching/LinearSearch.py)
+
+### Sorting
+#### 1. [Merge Sort](https://github.com/Chandu71202/DREAMTEAM/blob/main/Sorting/MergeSort.py)
+#### 2. [Quick Sort](https://github.com/Chandu71202/DREAMTEAM/blob/main/Sorting/QuickSort.py)
+
+### Stack and Queue
+#### 1. [Stack using 1 Queue](https://github.com/Chandu71202/DREAMTEAM/blob/main/Stack%20and%20Queue/Stack%20using%201%20queue.cpp)
+#### 2. [Stack using 2 Queues](https://github.com/Chandu71202/DREAMTEAM/blob/main/Stack%20and%20Queue/Stack%20using%202%20queue.cpp)
+#### 3. [Queue using 2 Stacks](https://github.com/Chandu71202/DREAMTEAM/blob/main/Stack%20and%20Queue/Queue%20using%202%20stacks.cpp)
 ### Some of the examples taught in class have been updated [LEETCODE](https://github.com/Chandu71202/LEETCODE) repository in which you can solve with testcases too...
 
