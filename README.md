@@ -79,7 +79,7 @@
 
 
 ### Binary Search Tree
-### 1. [Insert,Delete Operations](https://github.com/Chandu71202/DREAMTEAM/blob/main/BinarySearchTree/BiolerPlateCode.cpp)
+#### 1. [Insert,Delete Operations](https://github.com/Chandu71202/DREAMTEAM/blob/main/BinarySearchTree/BiolerPlateCode.cpp)
 
 ### Searching
 #### 1. [Binary Search](https://github.com/Chandu71202/DREAMTEAM/blob/main/Searching/BinarySearch.py)
